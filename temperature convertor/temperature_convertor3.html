@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <link rel="stylesheet" href="./l2task3/public/intern.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="temperature_convertor.css">
+    <script src="temperature_convertor3.js"></script>
+    <title>Temprature</title>
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="heading">TEMPERATURE CONVERTER</div>
+        <hr>
+        
+        <div class="boxcontainer">
+            <div class="box1">
+                <p>Degree</p>
+                <input type="number" class="enter" />
+            </div>
+            <div class="box1">
+                <p>Type</p>
+                <select name="" id="unit">   
+                     <option value="Fahrenheit">Fahrenheit</option>
+                     <option value="Celsius">Celsius</option>  
+                </select>
+            </div>
+        </div>
+        <div class="valuecontainer">
+            <p class="res">Result</p>
+            <div class="value"></div>
+        </div>
+        <button onclick="temprature()" class="button">CONVERT</button>
+    </div>
+
+</body>
+</html>

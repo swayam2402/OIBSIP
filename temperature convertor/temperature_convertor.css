@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 9%, rgba(176,183,223,1) 72%, rgba(148,187,233,1) 90%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    border: 2px solid black;
+    background: rgb(80,97,170);
+    background: linear-gradient(90deg, rgba(80,97,170,1) 5%, rgba(111,158,232,1) 60%);
+    border-radius: 15px;
+    padding: 30px 30px;
+    box-shadow: 5px 5px  rgba(239, 234, 239, 0.6);
+   
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(112, 195, 214);
+    
+}
+
+
+.boxcontainer {
+    display: flex;
+   flex-direction: row;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    padding: 15px 2px;
+    text-shadow: 3px 3px grey;
+}
+
+.box1 {
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 55px;
+    
+}
+
+.enter,#unit {
+    width: 100%;
+    font-size: 1.5rem;
+    background-color:transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#unit {
+    font-size: 1.5rem;
+    margin-top: 4px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.res{
+    font-size: 28px;
+    margin: 20px 0 0 170px;
+}
+.valuecontainer {
+    margin: 10px 0;
+    margin-top: 20px;
+    
+}
+
+.value {
+    width: 60%;
+    height: 35px;
+    margin: 8px 0 0 80px;
+    font-size: 1.4rem;
+    border: 2px solid hwb(0 4% 96%);
+    box-shadow: 2px 2px #849bef;
+    border-radius: 8px;
+    
+}
+
+.button {
+    width: 40%;
+    height: auto;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(161, 112, 241, 0.886);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    padding: 15px;
+    border:1px solid black;
+    cursor: pointer;
+    margin: 20px 0 0 130px;
+}
+.button:hover{
+    transition-timing-function:.5s ease-in-out;
+    color: rgb(14, 13, 13);
+    background-color: rgb(195, 141, 197);
+}
+
